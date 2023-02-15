@@ -1,0 +1,11 @@
+pipeline{
+	agent any
+	stages{
+		stage("build"){
+			steps{
+				echo "build in progress"
+				sleep 2
+				echo "build stage completed"
+				}
+			}
+
